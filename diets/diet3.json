@@ -1,0 +1,54 @@
+{
+    "breakfast": [
+        {
+            "title": "Salata fructe cu iaurt grecesc",
+            "hour": "09:00",
+            "description": "O banana, un kiwi, o portocala mica, 20 g fructe de padure si un iaurt grecesc pus deasupra fructelor plus 5 rondelede grau integral cu 60 g unt de arahide ( 100 ml lapte cu o cupa de proteine )"
+        },
+        {
+            "title": "Ton cu porumb si ou",
+            "hour": "09:00",
+            "description": "o conserva ton in suc PROPRIU, 2 ou fiert, 50 g porumb, rosie cherry, rucolla, ardei gras, ceapa verde si dressing din iaurt 0.1 %	si patru felii de paine integrala"
+        },
+        {
+            "title": "Cereale cu lapte",
+            "hour": "09:00",
+            "description": "100g fulgi de ovaz integrali, 20 g mix seminte crude, o lingurita miere, scortisoara dupa   gust, o banana totul facut cu 100 g lapte ( o cupa de proteine in lapte )"
+        }
+    ],
+    "lunch": [
+      
+        {
+            "title": "Ficatei cu cartofi natur",
+            "hour": "14:00",
+            "description": "2000 g ficatei de pui la gratar, 200 grame cartofi natur ( se pot pisa, adauga iaurt grecesc si sare ) si musdei ( dupa gust )"
+        },
+        {
+            "title": "Piept de curcan cu ciuperci la gratar",
+            "hour": "14:00",
+            "description": "200 g piept de curcan la gratar, 6 ciuperci mari la gratar si 200 g fasole verde fiarta"
+        },
+        {
+            "title": "Urda cu masline si cu salata",
+            "hour": "14:00",
+            "description": "200 g urda slaba, 20 grame masline, salata ( ardei, castraveti, salata ) si 6 felii de paine integrala	"
+        }
+    ],
+    "dinner": [
+        {
+            "title": "Vita cu cartof la cuptor",
+            "hour": "19:00",
+            "description": "200 g vita la cuptor, 200 grame cartof la cuptor, 100 g legume."
+        },
+        {
+            "title": "Paste cu carne de curcan sau vita",
+            "hour": "19:00",
+            "description": "100g paste, 200g piept de curcan fiert, ciuperci, ardei gras, rosii cherry, morcov, ceapa, usturoi, suc de rosii, piper sau ardei iute dupa gust ( legumele se calesc in apa FARA ulei )"
+        },
+        {
+            "title": "Orez sarbesc cu curcan ",
+            "hour": "19:00",
+            "description": "100g orez integral, 200 g piept de curcan fiert, ardei gras, ceapa, 50 g mazare, morcov, ciuperci, condimente dupa gust ( legumele se calesc in apa )"
+        }
+    ]
+}

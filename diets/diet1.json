@@ -1,0 +1,53 @@
+{
+    "breakfast": [
+        {
+            "title": "Rondele expandate(Sanovita) de grau integral ",
+            "hour": "09:00",
+            "description": "6 rondele de grau, 80 g unt de arahide NATURAL, o banana ( 150 ml lapte cu o cupa de proteine ) "
+        },
+        {
+            "title": "Cereale cu lapte",
+            "hour": "09:00",
+            "description": "100g fulgi de ovaz integrali, 20 g mix seminte crude, o lingurita miere, scortisoara dupa   gust, o banana totul facut cu 100 g lapte ( o cupa de proteine in lapte )"
+        },
+        {
+            "title": "Omleta cu legume",
+            "hour": "09:00",
+            "description": "10 albusuri de ou si un galbenus, ardei gras, ceapa verde,marar,  masline ( totul facut in tigaie de ceramica fara ulei ) si patru felii de paine integrala."
+        }
+    ],
+    "lunch": [
+        {
+            "title": "Vita cu brocoli si paste integrale",
+            "hour": "14:00",
+            "description": "100 g paste integrale, 200 g vita la gratar, 100 g brocoli fiert"
+        },
+        {
+            "title": "Piept de curcan cu orez",
+            "hour": "14:00",
+            "description": "200 g piept de curcan la gratar, 100 grame orez integral, sos soia pentru gust."
+        },
+        {
+            "title": "Somon cu legume in sos de portocale",
+            "hour": "14:00",
+            "description": "2000 g somon la tava, 2 cartof , 200 g legume. ( se pun toate in tava si se pune cam un cm de suc NATURAL de portocale in care se pregatesc preparatele )"
+        }
+    ],
+    "dinner": [
+        {
+            "title": "Crema de branza",
+            "hour": "19:00",
+            "description": "200 g branza de vaci slaba (Raraul recomand), 75 g iaurt grecesc 2% grasime, 40 grame fulgi de ovaz( sau 3 rondele de grau integral) 20 g mix seminte crude ( sau le coci tu la cuptor fara ulei ), 20 g fructe de padure congelate ( afine, mure, coacaze, etc dupa gust ) si adaugi lapte 0.1% pana devine cremoasa compozitia. ( adaugi o cupa de proteine )"
+        },
+        {
+            "title": "Piept de curcan cu legume",
+            "hour": "19:00",
+            "description": "100g paste, 200g piept de curcan fiert, ciuperci, ardei gras, rosii cherry, morcov, ceapa, usturoi, suc de rosii, piper sau ardei iute dupa gust ( legumele se calesc in apa FARA ulei )"
+        },
+        {
+            "title": "Muschi de porc cu cartofi natur",
+            "hour": "19:00",
+            "description": "200 g muschiulet slab de porc la gratar ( cimbru, chimen, sare, piper dupa gust ), 200 g cartofi natur (se pot pisa si se adauga iaurt grecesc si sare pt a se face piure)+muraturi( optional )"
+        }
+    ]
+}

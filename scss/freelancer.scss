@@ -1,0 +1,33 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "navbar.scss";
+@import "masthead.scss";
+@import "diets.scss";
+@import "contact.scss";
+@import "footer.scss";
+@import "bootstrap-overrides.scss";
+
+div#meal-selector {
+	display: none;
+}
+
+div#meal-list-skel {
+	display: none;
+}
+
+div.meal-list-wrapper {
+	display: none;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #DEE2E6;
+	border-top: 0;
+}
+
+div#meal-item-skel {
+	display: none;
+}
+
+div#results-modal {
+  width: 750px;
+  margin: auto;
+}

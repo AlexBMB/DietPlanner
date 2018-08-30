@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Diet Planner</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Diet Planner</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#diete">Diete</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Workout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container">
+        <img class="img-fluid mb-5 d-block mx-auto" src="img/main.png" alt="">
+        <h1 class="text-uppercase mb-0">Diet Planner</h1>
+        <hr class="star-light">
+      </div>
+    </header>
+
+    <!-- diet Grid Section -->
+    <section class="diet" id="diete">
+      <div id="diet-selector" class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Diete</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a class="diet-item d-block mx-auto" data-id="1" href="#diet-modal-1">
+              <div class="diet-item-caption d-flex position-absolute h-100 w-100">
+                <div class="diet-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                  <br /><br />
+                  Dieta 1
+                </div>
+              </div>
+              <img class="img-fluid" src="img/diets/diet1.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="diet-item d-block mx-auto" data-id="2" href="#diet-modal-2">
+              <div class="diet-item-caption d-flex position-absolute h-100 w-100">
+                <div class="diet-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                  <br /><br />
+                  Dieta 2
+                </div>
+              </div>
+              <img class="img-fluid" src="img/diets/diet2.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="diet-item d-block mx-auto" data-id="3" href="#diet-modal-3">
+              <div class="diet-item-caption d-flex position-absolute h-100 w-100">
+                <div class="diet-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                  <br /><br />
+                  Dieta 3
+                </div>
+              </div>
+              <img class="img-fluid" src="img/diets/diet3.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div id="meal-selector" class="container">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#monday" role="tab" aria-controls="monday" aria-selected="true">Luni</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="tuesday-tab" data-toggle="tab" href="#tuesday" role="tab" aria-controls="tuesday" aria-selected="false">Marti</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#wednesday" role="tab" aria-controls="wednesday" aria-selected="false">Miercuri</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="thursday-tab" data-toggle="tab" href="#thursday" role="tab" aria-controls="thursday" aria-selected="false">Joi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="friday-tab" data-toggle="tab" href="#friday" role="tab" aria-controls="friday" aria-selected="false">Vineri</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="monday" role="tabpanel" aria-labelledby="monday-tab"></div>
+          <div class="tab-pane fade" id="tuesday" role="tabpanel" aria-labelledby="tuesday-tab"></div>
+          <div class="tab-pane fade" id="wednesday" role="tabpanel" aria-labelledby="wednesday-tab"></div>
+          <div class="tab-pane fade" id="thursday" role="tabpanel" aria-labelledby="thursday-tab"></div>
+          <div class="tab-pane fade" id="friday" role="tabpanel" aria-labelledby="friday-tab"></div>
+        </div>
+      </div>
+
+      <br /><br />
+
+      <div class="container">
+        <div id="meal-list-skel">
+			<div class="container meal-list-wrapper">
+				<div class="card breakfast">
+					<!--<img class="card-img-top" src="img/diets/breakfast.jpg" alt="Mic dejun" style="height: 100px;">-->
+					<div class="card-body">
+						<h5 class="card-title">Mic dejun</h5>
+						<p class="card-text"><ul class="list-group"></ul></p>
+					</div>
+				</div>
+				<br />
+				<div class="card lunch">
+					<!--<img class="card-img-top" src="img/diets/breakfast.jpg" alt="Mic dejun" style="height: 100px;">-->
+					<div class="card-body">
+						<h5 class="card-title">Pranz</h5>
+						<p class="card-text"><ul class="list-group"></ul></p>
+					</div>
+				</div>
+				<br />
+				<div class="card dinner">
+					<!--<img class="card-img-top" src="img/diets/breakfast.jpg" alt="Mic dejun" style="height: 100px;">-->
+					<div class="card-body">
+						<h5 class="card-title">Cina</h5>
+						<p class="card-text"><ul class="list-group"></ul></p>
+					</div>
+				</div>
+				<br />
+			</div>
+			<br />
+			<div class="text-center">
+				<button type="button" id="submit-food-plan" class="btn btn-primary btn-lg">Program</button>
+			</div>
+        </div>
+
+        <div id="meal-item-skel">
+			<li class="list-group-item">
+				<div class="d-flex w-100 justify-content-between">
+					<h5 class="mb-1">
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+							<label class="form-check-label" for="exampleRadios1">
+								Default radio
+							</label>
+						</div>
+					</h5>
+					<small>3 days ago</small>
+				</div>
+				<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+			</li>
+		</div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="about">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white">Workout</h2>
+        <hr class="star-light mb-5">
+        <div class="row">
+           <div class= "col-lg-12">
+            <p class="lead">
+
+          <br><h2>Luni:</h2>
+            <p><br> Piept: Impins declinat cu bara 3 x 10 rep ( daca depasesti 12 rep maresti cu 10% greutatea )
+	                  <br> Impins inclinat cu ganterele 3x10 rep
+	                  <br> Impins orizontal cu ganterele 3x10 rep
+	                  <br> Fluturari cu ganterele din declinat 3x10 rep ( banca pusa la prima gaura )
+	                  <br> Fluturari la cabluri de jos 3x12 rep
+              <br>Triceps: Extensii cu gantera deasupra capului 3x10 rep
+	                  <br>   Skull crushers ( cu bara z deasupra capului ) 3x10 rep</p><br>
+
+        <h2>Marti:</h2>
+            <p><br>Spate: Tractiuni la helcometru la ceafa 3x 10 rep
+                    <br>	Tractiuni la helcometru cu priza apropiata 3x10 rep
+                    <br>  Ramat cu sfoara la cabluri din piciaore 3x 16 rep
+                    <br>    Ramat cu bara 3x10 rep
+                    <br>    Ramat la aparat cu priza larga
+                    <br>  Biceps : flexii din piciaore cu bara drapta cu priza pronatie 4x12 rep </p><br>
+
+        <h2>Miercuri:</h2>
+              <p><br> Picioare :Presa pe cate un singur picior 3 x 16 rep ( incalzire )
+	                        <br>Genuflexiuni cu bara in spate 3x 10 rep
+	                        <br>Fandari cu ganterele in maini 3x 12 rep
+	                        <br>Fandari la aparat pe cate un singur picioar 3 x 12 rep
+	                        <br>Extensii la aparat 3x12 rep
+	                        <br>Gambe la aparat 3x 12 rep
+	            <br>Abdomen:
+	                        <br>Din atarnat ridicari de picioare 4x20 rep ( sau daca nu se pot efectua din atarnat incerca la aparatul unde iti tii coatele sprijinite)
+	                        <br>La bancuta inclinata la 45 grade 4x20 rep
+	                        <br>La banca dreapta Crunches 4x20 rep </p><br>
+
+        <h2>Joi:</h2>
+              <p><br>Umeri : Impins alternativ cu ganterele din sezut  cu rotire de brate 3x16 rep
+	                      <br>Impins de la piept cu bara din sezut 3x 10 rep
+	                      <br>Impins de la ceafa cu bara din piciaore 3x10 rep
+	                      <br>Extensii inainte cu bara Z (din picioare) 3x16 rep
+	                      <br>Fluturari la cabluri in X pentru deltoidul anterior 4x12 rep
+	                      <br>Trapez: Ridicari de umeri cu bara din picioare 4x10 rep</p><br>
+
+        <h2>Vineri:</h2>
+              <p><br>Triceps: Flotari la paralele cu extra greutate - 4x12 rep
+	                      <br>Skull crushers - cu bara Z deasupra capului 3x12 rep
+	                      <br>Flotari normale cu mainile apropiate si coatele pe langa corp cu EXTRA GREUTATE - 4x12
+                        <br>Biceps:Tractiuni pt biceps 3x10 rep
+	                      <br>Flexii cu bara z din picioare 3x12 rep
+	                      <br>Flexii cu priza pronatie cu bara Z din picioare 3x12 rep
+	                      <br>Flexii alternative concentrate cu ganterele din sezut 3x12 rep </p><br>
+
+
+
+          </div>
+
+        </div>
+        <div class="text-center mt-4">
+          <a class="btn btn-xl btn-outline-light" href="#">
+            <i class="fa fa-download mr-2"></i>
+            Mai multe
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>Balaban Alexandru 2018</small>
+      </div>
+    </div>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- diet Modals -->
+
+    <!-- diet Modal 1 -->
+    <div class="diet-modal mfp-hide" id="diet-modal-1">
+      <div class="diet-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block diet-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/diet/cabin.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill diet-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- diet Modal 2 -->
+    <div class="diet-modal mfp-hide" id="diet-modal-2">
+      <div class="diet-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block diet-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/diet/cake.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill diet-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- diet Modal 3 -->
+    <div class="diet-modal mfp-hide" id="diet-modal-3">
+      <div class="diet-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block diet-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/diet/circus.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill diet-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- diet Modal 4 -->
+    <div class="diet-modal mfp-hide" id="diet-modal-4">
+      <div class="diet-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block diet-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/diet/game.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill diet-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- diet Modal 5 -->
+    <div class="diet-modal mfp-hide" id="diet-modal-5">
+      <div class="diet-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block diet-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/diet/safe.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill diet-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- diet Modal 6 -->
+    <div class="diet-modal mfp-hide" id="results-page">
+      <div class="diet-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block diet-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Rezultate</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/diet/submarine.png" alt="">
+              <!--<p class="mb-5 content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>-->
+			  <div class="content"></div>
+              <a class="btn btn-primary btn-lg rounded-pill diet-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <!--<script src="js/freelancer.min.js"></script>-->
+    <script src="js/freelancer.js"></script>
+
+  </body>
+
+</html>

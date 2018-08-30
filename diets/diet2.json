@@ -1,0 +1,53 @@
+{
+    "breakfast": [
+        {
+            "title": "Omleta cu legume ",
+            "hour": "09:00",
+            "description": "3 albusuri, 1 galbenus, legume ( ardei gras, masiline ), 2 felii de paine integrala prajita"
+        },
+        {
+            "title": "Tartine cu unt de arahide",
+            "hour": "09:00",
+            "description": "2 felii de paine integrala prajita ( la toaster ), unsa cu 20 g unt de arahide, 20 g miere si o banana taiata felii si pusa deasupra"
+        },
+        {
+            "title": "Creveti cu cartofi dulci piure",
+            "hour": "09:00",
+            "description": "150 g creveti la gratar plus 250 g cartofi dulci fierti si facuti piure"
+        }
+    ],
+    "lunch": [
+        {
+            "title": "Piept de pui cu sparanghel si paste",
+            "hour": "14:00",
+            "description": "35 g paste integrale, 150 g piept de pui la gratar, 100 g sparanghel la gratar"
+        },
+        {
+            "title": "File de cod cu broccoli",
+            "hour": "14:00",
+            "description": "150 g file cod la gratar plus 200 g broccoli fiert"
+        },
+        {
+            "title": "Pulpa de pui cu fasole verde ",
+            "hour": "14:00",
+            "description": "150g pulpa de pui (FARA piele) la gratar plus 150 g fasole verde fiarta"
+        }
+    ],
+    "dinner": [
+        {
+            "title": "Supa crema de legume",
+            "hour": "18:00",
+            "description": "50 g dovelcel, 50 g broccoli, 50 g morcov, 50 g linte (se fierb toate si se fac la blender )"
+        },
+        {
+            "title": "Ficatei cu cartofi natur",
+            "hour": "18:00",
+            "description": "150 g ficatei de pui la gratar, 200 grame cartofi natur  si musdei ( dupa gust )"
+        },
+        {
+            "title": "File somon cu orez negru",
+            "hour": "18:00",
+            "description": "150 g file somon plus 35 g orez negru fiert, condimente dupa gust"
+        }
+    ]
+}
